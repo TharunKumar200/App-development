@@ -1,0 +1,184 @@
+
+.sidebar {
+  background-color: rgb(49, 49, 48);
+  width: 250px;
+  flex-shrink: 0;
+  color: white;
+}
+
+/* Main content styles */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling for the container of grid items */
+.grid-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-right: -300px;
+}
+
+/* Styling for grid items */
+.grid-item {
+  background-color: lightgray;
+  text-align: center;
+  box-shadow: 3px 7px 5px rgba(224, 218, 218, 0.7);
+  height: auto;
+  max-width: 300px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-right: 120px;
+
+}
+
+/* Styling for links in the sidebar */
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Footer styles */
+.footer {
+  background-color: rgb(49, 49, 48);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Dashboard container */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #000000;
+  color: white;
+  padding: 10px 0;
+  text-align: right;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(238, 236, 236);
+}
+
+/* Event List Box */
+.event-list-box {
+  padding: 20px;
+  text-align: center;
+  box-shadow: 3px 7px 5px rgba(224, 218, 218, 0.7);
+  margin-top: 20px;
+  margin-right: 100px;
+  background-color: #f3f3f3;
+
+}
+
+.event-list-box h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+
+/* Event styles */
+.event {
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 3px 7px 5px rgba(224, 218, 218, 0.7);
+}
+
+.event h2 {
+  font-size: 20px;
+  color: #333;
+  margin: 0;
+}
+
+.event p {
+  font-size: 16px;
+  color: #5da4eb;
+  margin: 0;
+}
+
+/* Volunteer List Box */
+.volunteer-list-box {
+  background-color: #f3f3f3;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 3px 7px 5px rgba(224, 218, 218, 0.7);
+  border-radius: 10px;
+
+  margin-top: 20px;
+
+}
+
+/* Volunteer styles */
+.volunteer {
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.volunteer h2 {
+  font-size: 20px;
+  color: #333;
+  margin: 0;
+}
+
+.volunteer p {
+  font-size: 16px;
+  color: #5da4eb;
+  margin: 0;
+}
+
+/* Volunteer Scroll Container */
+.volunteer-scroll-container {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid lightgray;
+  padding: 10px;
+
+}
+.total-event-vol{
+ display: flex;
+  
+}
+/* Hide scrollbars for the entire page */
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer/Edge */
+}
+
+body::-webkit-scrollbar {
+  width: 0; /* WebKit (Chrome, Safari, etc.) */
+}
