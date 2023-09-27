@@ -1,0 +1,64 @@
+/* Style for the event list container */
+.event-list-org1 {
+  margin-top: 20px;
+}
+
+/* Style for the "Upcoming Events" heading */
+.event-list-org1 h1 {
+  color: rgba(0, 0, 0, 0.815);
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+/* Style for the "Clear All Events" button */
+.event-list-org1 button {
+  background-color: #ffffff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+/* Style for the event cards */
+/* Style for the event cards */
+/* Style for the event cards */
+.event-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+}
+
+/* Hover effect for the event cards */
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust the box shadow on hover */
+}
+
+
+
+/* Style for the event details within the card */
+.event-details {
+  padding: 20px;
+}
+
+/* Style for the event title */
+.event-details .card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style for the event date and location */
+.event-details .card-text {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Add additional styles as needed */
