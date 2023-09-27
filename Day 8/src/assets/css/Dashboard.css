@@ -1,0 +1,147 @@
+.sidebar {
+  background-color: rgb(49, 49, 48);
+  width: 250px;
+  flex-shrink: 0;
+  color: white;
+}
+
+/* Main content styles */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: Arial, sans-serif;
+  
+}
+
+/* Styling for the container of grid items */
+.grid-container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-left: 10em;
+  grid-gap: 20px;
+  
+}
+
+/* Grid Item Styles */
+.grid-item {
+  background-color: #e8eb9f;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  flex:1 ;
+  margin-right: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+.grid-item:last-child {
+  margin-right: 0;
+}
+
+.grid-item h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.grid-item p {
+  font-size: 16px;
+  
+}
+
+/* Styling for links in the sidebar */
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Footer styles */
+.footer {
+  background-color: rgb(49, 49, 48);
+  color: white;
+  text-align: center;
+  padding: 10px;
+ 
+}
+
+/* Dashboard container */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  
+  height: 100vh;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: rgb(49, 49, 48);
+  color: white;
+  padding: 10px 0;
+  text-align: right;
+  margin-top: -8px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(238, 236, 236);
+}
+
+/* Event List Box */
+/* Styling for the Event Table */
+.event-table {
+  width: 62%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: -17%;
+}
+
+/* Styling for the Event Table Header */
+.event-table thead {
+  background-color: #333;
+  color: white;
+}
+
+/* Styling for the Event Table Header Cells */
+.event-table th {
+  padding: 12px;
+  text-align: left;
+}
+
+/* Styling for the Event Table Rows */
+.event-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Styling for the Event Table Cells */
+.event-table td {
+  padding: 12px;
+  text-align: left;
+}
+
+
+
