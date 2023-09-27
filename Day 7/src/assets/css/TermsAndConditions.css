@@ -1,0 +1,33 @@
+/* TermsAndConditions.css */
+
+.terms-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  box-shadow: 7px 5px 10px #b0adb3;
+}
+
+.terms-header h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.terms-section {
+  margin-bottom: 20px;
+}
+
+.terms-section-header h2 {
+  font-size: 24px;
+  color: #000000;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.terms-section-content p {
+  font-size: 16px;
+  color: #4c4b4b;
+}
